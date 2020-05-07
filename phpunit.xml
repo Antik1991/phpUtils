@@ -1,0 +1,3 @@
+<!--根目录写一个配置文件phpunit.xml来为项目指定bootstrap，这样就不用每次都写在命令里了-->
+<phpunit bootstrap="./tests/bootstrap.php">
+</phpunit>
