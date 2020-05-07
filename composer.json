@@ -1,9 +1,10 @@
 {
     "name": "antik/php-utils",
     "description": "php common utils",
+    "version": "0.1.0",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=7.0"
     },

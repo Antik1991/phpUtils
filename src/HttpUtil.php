@@ -69,7 +69,7 @@ class HttpUtil
      * @author: Antik
      * @Time: 2020/5/7  3:48 PM
      */
-    public static function getPostHttpBody($postFields)
+    protected static function getPostHttpBody($postFields)
     {
         $content = '';
         foreach ($postFields as $apiParamKey => $apiParamValue) {
@@ -83,7 +83,7 @@ class HttpUtil
      *
      * @return array
      */
-    public static function getHttpHearders($headers)
+    protected static function getHttpHearders($headers)
     {
         $httpHeader = array();
         foreach ($headers as $key => $value) {
