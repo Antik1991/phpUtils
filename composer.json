@@ -1,0 +1,15 @@
+{
+    "name": "antik/php-utils",
+    "description": "php common utils",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpUtils\\HttpUtil\\": "src/PhpUtils/HttpUtil"
+        }
+    }
+}
