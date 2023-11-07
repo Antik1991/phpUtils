@@ -1,6 +1,8 @@
 <?php
 namespace PhpUtils;
 
+use Exception;
+
 class HttpUtil
 {
 
